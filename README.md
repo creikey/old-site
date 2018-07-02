@@ -1,2 +1,2 @@
 # creikey.github.io
-Personal website built with hugo
+Repo for hosting personal website
