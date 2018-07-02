@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on creikey</title>
+    <link>https://creikey.github.io/blog/</link>
+    <description>Recent content in Blogs on creikey</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 02 Jul 2018 01:54:41 -0700</lastBuildDate>
+    
+	<atom:link href="https://creikey.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Setting Up Website</title>
+      <link>https://creikey.github.io/blog/setting-up-website/</link>
+      <pubDate>Mon, 02 Jul 2018 01:54:41 -0700</pubDate>
+      
+      <guid>https://creikey.github.io/blog/setting-up-website/</guid>
+      <description>Synopsis Using hugo to create a website is very easy, as shown in these steps
+I followed the hugo quick start guide
+And the introduction theme&amp;rsquo;s instructions
+Steps Installing hugo Because arch linux has a wide breadth of supported programs in it&amp;rsquo;s repos, I was able to simply run:
+sudo pacman -S hugo
+And use the hugo new site website command to create the website in a folder named website/</description>
+    </item>
+    
+  </channel>
+</rss>

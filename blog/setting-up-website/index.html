@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+<meta name="description" content="A website with a blog and info about Cameron Reikes">
+
+<title>
+
+
+     Setting Up Website 
+
+</title>
+<link rel="canonical" href="https://creikey.github.io/blog/setting-up-website/">
+
+
+
+
+
+
+<script type="text/javascript" src="/js/jquery-3.3.1.min.js"></script>
+
+
+<link rel="stylesheet" href="/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/nunito_sans.css">
+
+
+    <link rel="stylesheet" href="/css/light-style.css">
+
+
+
+
+
+
+<link rel="shortcut icon" href="/img/fav.ico">
+
+
+
+
+
+
+
+</head>
+
+
+<body>
+
+    <div class="section" id="top">
+        
+
+        <div class="container hero ">
+            
+            <h1 class="bold-title is-1">Blog</h1>
+        </div>
+        
+
+        
+        <div class="section ">
+
+            <div class="container">
+                
+                <hr>
+<nav class="nav nav-center">
+    <span id="nav-toggle" class="nav-toggle"  onclick="document.getElementById('nav-menu').classList.toggle('is-active');">
+      <span></span>
+      <span></span>
+      <span></span>
+    </span>
+    <div id="nav-menu" class="nav-left nav-menu">
+      <span class="nav-item">
+        <a href="/">Main</a>
+      </span>
+      
+      <span class="nav-item">
+        <a href="/about">About</a>
+      </span>
+      
+      
+      <span class="nav-item">
+        
+        <a href="/projects">Projects</a>
+        
+      </span>
+      
+      
+      <span class="nav-item">
+        
+        <a href="/blog">Back to Blog</a>
+        
+      </span>
+      
+      
+      <span class="nav-item">
+        <a href="/contact">Contact</a>
+      </span>
+      
+    
+      <span class="nav-item">
+        <a href="https://creikey.github.io/index.xml"><i class="fa fa-rss"></i></a>
+      </span>
+    
+    </div>
+</nav>
+<hr>
+
+            </div>
+            
+
+            <div class="container ">
+                
+                <h2 class="title is-1 top-pad strong-post-title">
+                    <a href="https://creikey.github.io/blog/setting-up-website/">Setting Up Website</a>
+                </h2>
+                <div class="post-data">
+                    Jul 2, 2018 | 2 minutes read
+                </div>
+
+                
+                <div class="blog-share">
+                    Share this: 
+                    <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Read%20Setting%20Up%20Website%20https%3a%2f%2fcreikey.github.io%2fblog%2fsetting-up-website%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                        <i class="fa fa-twitter"></i>
+                        <span class="hidden">Twitter</span>
+                    </a>
+                       
+                    <a class="icon-google-plus" href="https://plus.google.com/share?url=https%3a%2f%2fcreikey.github.io%2fblog%2fsetting-up-website%2f" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                        <i class="fa fa-google-plus"></i>
+                        <span class="hidden">Google+</span>
+                    </a>
+                    
+                </div>
+                
+
+            </div>
+            
+
+            <div class="container markdown  top-pad">
+                
+                
+
+<h1 id="synopsis">Synopsis</h1>
+
+<p>Using hugo to create a website is very easy, as shown in these steps</p>
+
+<p>I followed the <a href="https://gohugo.io/getting-started/quick-start/">hugo quick start guide</a></p>
+
+<p>And the introduction theme&rsquo;s <a href="https://github.com/vickylai/hugo-theme-introduction/blob/master/README.md">instructions</a></p>
+
+<h1 id="steps">Steps</h1>
+
+<h2 id="installing-hugo">Installing hugo</h2>
+
+<p>Because arch linux has a wide breadth of supported programs in it&rsquo;s repos, I was able to simply run:</p>
+
+<p><code>sudo pacman -S hugo</code></p>
+
+<p>And use the <code>hugo new site website</code> command to create the website in a folder named <code>website/</code></p>
+
+<h2 id="finding-the-right-theme">Finding the right theme</h2>
+
+<p>Using hugo&rsquo;s theme browser, I found a theme called <a href="https://themes.gohugo.io/hugo-theme-introduction/">introduction</a> that really felt correct for this website.</p>
+
+<p>Then, I added that theme as a submodule using</p>
+
+<p><code>cd themes</code></p>
+
+<p><code>git submodule add https://github.com/vickylai/hugo-theme-introduction.git introduction</code></p>
+
+<p>To complete the integration of the theme, I <a href="https://themes.gohugo.io/hugo-theme-introduction#configure-your-site">Followed the instructions on the theme&rsquo;s site</a></p>
+
+<h2 id="creating-content-for-the-website">Creating content for the website</h2>
+
+<p>To add some content for the website, I</p>
+
+<ul>
+<li>Added some various projects that I like to work on</li>
+<li>Added my branding profile pic</li>
+<li>Added a favicon</li>
+<li>Made a quick little scene in blender for one of the porojects</li>
+<li>Added social media plugs</li>
+<li>Wrote this blog!</li>
+</ul>
+
+<h2 id="setting-up-github-pages">Setting up github pages</h2>
+
+<p>Using <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/" title="Hugo hosting on github tutorial">this easy to follow guide</a>, I was able to easily set up a system where I can develop the website seperately from the deployed repo in my github account.
+I chose to host the website this way because now I am able to keep the version control history clean, with the recompilations of the
+website separate from the development.</p>
+
+<h3 id="steps-i-took">Steps I took</h3>
+
+<ol>
+<li>Create a new github repo called <code>creikey.github.io</code></li>
+<li>Create another repo called <code>website</code></li>
+<li>Create this website and push it to the <code>website</code> repo</li>
+<li>Delete the public directory with <code>rm -rf public/</code></li>
+<li>Add the <code>creikey.github.io</code> website as a submodule using <code>git submodule add -b master git@github.com:creikey/creikey.github.io.git public</code></li>
+<li><a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/#put-it-into-a-script">Use the included script</a> to publish the changes</li>
+</ol>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>Setting up a website with hugo is very easy, and even fun!</p>
+
+<p>Thanks for taking time out of your day to read this blog. I hope that you found some sort of usefulness from my writing</p>
+
+            </div>
+            
+
+            <div class="disqus">
+                
+            </div>
+
+            <div class="container has-text-centered top-pad">
+                <hr>
+                <a href="https://creikey.github.io/blog/setting-up-website/#top">
+                    <i class="fa fa-arrow-up"></i>
+                </a>
+                <hr>
+            </div>
+
+            <div class="section" id="footer">
+    <div class="container has-text-centered">
+    
+        Made with hugo
+    
+    </div>
+</div>
+
+        </div>
+        
+    </div>
+    
+
+    
+    <script>
+        $('a[href^="https:\/\/creikey.github.io\/blog\/setting-up-website\/#"]').click(function (e) {
+            e.preventDefault();
+            var target = this.hash;
+            $('html, body').animate({
+                scrollTop: $(target).offset().top
+            }, 500);
+            return false;
+        })
+    </script>
+
+</body>

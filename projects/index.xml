@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on creikey</title>
+    <link>https://creikey.github.io/projects/</link>
+    <description>Recent content in Projects on creikey</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 02 Jul 2018 01:05:06 -0700</lastBuildDate>
+    
+	<atom:link href="https://creikey.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Modeling</title>
+      <link>https://creikey.github.io/projects/modeling/</link>
+      <pubDate>Mon, 02 Jul 2018 01:05:06 -0700</pubDate>
+      
+      <guid>https://creikey.github.io/projects/modeling/</guid>
+      <description>I enjoy using blender to 3d model various objects and to make VFX. I also use blender to develop assets for game development</description>
+    </item>
+    
+    <item>
+      <title>Programming</title>
+      <link>https://creikey.github.io/projects/programming/</link>
+      <pubDate>Mon, 02 Jul 2018 00:46:46 -0700</pubDate>
+      
+      <guid>https://creikey.github.io/projects/programming/</guid>
+      <description>I am continually trying to improve my skills as a programmer, with the goal of being able to create and do anything I want as efficiently as possible with a computer</description>
+    </item>
+    
+    <item>
+      <title>GameDevelopment</title>
+      <link>https://creikey.github.io/projects/gamedevelopment/</link>
+      <pubDate>Mon, 02 Jul 2018 02:19:36 -0700</pubDate>
+      
+      <guid>https://creikey.github.io/projects/gamedevelopment/</guid>
+      <description>My primary engine of choice for game development is Godot, for a multitude of reasons. I have a club at La Jolla High School called Viking Games, where we develop games to earn money towards our ASB</description>
+    </item>
+    
+  </channel>
+</rss>

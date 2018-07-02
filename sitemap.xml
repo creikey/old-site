@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://creikey.github.io/projects/modeling/</loc>
+    <lastmod>2018-07-02T01:05:06-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://creikey.github.io/projects/programming/</loc>
+    <lastmod>2018-07-02T00:46:46-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://creikey.github.io/projects/gamedevelopment/</loc>
+    <lastmod>2018-07-02T02:19:36-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://creikey.github.io/blog/setting-up-website/</loc>
+    <lastmod>2018-07-02T01:54:41-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://creikey.github.io/contact/</loc>
+    <lastmod>2018-07-02T00:36:15-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://creikey.github.io/about/</loc>
+    <lastmod>2018-07-02T00:36:10-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://creikey.github.io/blog/</loc>
+    <lastmod>2018-07-02T01:54:41-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://creikey.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://creikey.github.io/projects/</loc>
+    <lastmod>2018-07-02T01:05:06-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://creikey.github.io/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://creikey.github.io/</loc>
+    <lastmod>2018-07-02T01:05:06-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
