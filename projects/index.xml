@@ -6,10 +6,19 @@
     <description>Recent content in Projects on creikey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 Jul 2018 01:05:06 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 04 Jul 2018 14:25:40 -0700</lastBuildDate>
     
 	<atom:link href="https://creikey.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Music Production</title>
+      <link>https://creikey.github.io/projects/musicproduction/</link>
+      <pubDate>Wed, 04 Jul 2018 14:25:40 -0700</pubDate>
+      
+      <guid>https://creikey.github.io/projects/musicproduction/</guid>
+      <description>I use lmms to create music for games and personal use. My soundcloud is here</description>
+    </item>
     
     <item>
       <title>Modeling</title>
@@ -30,7 +39,7 @@
     </item>
     
     <item>
-      <title>GameDevelopment</title>
+      <title>Game Development</title>
       <link>https://creikey.github.io/projects/gamedevelopment/</link>
       <pubDate>Mon, 02 Jul 2018 02:19:36 -0700</pubDate>
       

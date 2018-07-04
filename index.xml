@@ -6,10 +6,19 @@
     <description>Recent content on creikey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 Jul 2018 01:05:06 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 04 Jul 2018 14:25:40 -0700</lastBuildDate>
     
 	<atom:link href="https://creikey.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Music Production</title>
+      <link>https://creikey.github.io/projects/musicproduction/</link>
+      <pubDate>Wed, 04 Jul 2018 14:25:40 -0700</pubDate>
+      
+      <guid>https://creikey.github.io/projects/musicproduction/</guid>
+      <description>I use lmms to create music for games and personal use. My soundcloud is here</description>
+    </item>
     
     <item>
       <title>Modeling</title>
@@ -30,7 +39,7 @@
     </item>
     
     <item>
-      <title>GameDevelopment</title>
+      <title>Game Development</title>
       <link>https://creikey.github.io/projects/gamedevelopment/</link>
       <pubDate>Mon, 02 Jul 2018 02:19:36 -0700</pubDate>
       
@@ -68,7 +77,7 @@ And use the hugo new site website command to create the website in a folder name
       
       <guid>https://creikey.github.io/about/</guid>
       <description> I am a programmer, 3d artist, musician, and game designer
-Lightning Round Qualifications  Eagle scout Competent in C++, C, Golang, Godot, HTML/CSS/Javascript, Java, Vim Able to do 3D design and creation in blender Author of various games on itch.io Over sixty github projects  </description>
+Lightning Round Qualifications  Life scout Competent in C++, C, Golang, Godot, HTML/CSS/Javascript, Java, Vim Able to do 3D design and creation in blender Author of various games on itch.io Over sixty github projects Various musical projects on soundcloud  </description>
     </item>
     
   </channel>

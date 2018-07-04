@@ -30,8 +30,8 @@
     "accountablePerson" : "",
     "copyrightHolder" : "",
     "copyrightYear" : "2018",
-    "datePublished": "2018-07-02 01:05:06 -0700 PDT",
-    "dateModified" : "2018-07-02 01:05:06 -0700 PDT",
+    "datePublished": "2018-07-04 14:25:40 -0700 PDT",
+    "dateModified" : "2018-07-04 14:25:40 -0700 PDT",
     "url" : "https://creikey.github.io/",
     "wordCount" : "0",
     "keywords" : [ "Blog" ]
@@ -115,6 +115,10 @@
         <i class="fa fa-server"></i>
     </a>
     
+    <a href="https://soundcloud.com/creikey/">
+        <i class="fa fa-soundcloud"></i>
+    </a>
+    
 </div>
             </div>
             
@@ -164,11 +168,12 @@
 <h3 id="lightning-round-qualifications">Lightning Round Qualifications</h3>
 
 <ul>
-<li>Eagle scout</li>
+<li>Life scout</li>
 <li>Competent in C++, C, Golang, Godot, HTML/CSS/Javascript, Java, Vim</li>
 <li>Able to do 3D design and creation in blender</li>
 <li>Author of various games <a href="https://creikey.itch.io/">on itch.io</a></li>
 <li>Over sixty <a href="https://github.com/creikey">github projects</a></li>
+<li>Various musical projects <a href="https://soundcloud.com/creikey/">on soundcloud</a></li>
 </ul>
 
             </div>
@@ -193,6 +198,26 @@
             
             
             
+            
+            <div class="column is-half">
+                
+                    <div  id="projectmusic-production" 
+                        class="card">
+                        <div class="card-image">
+                            <figure class="image is-3by2">
+                                <a >
+                                    <img src="https://creikey.github.io/img/music.jpg">
+                                </a>
+                            </figure>
+                        </div>
+                        <div class="card-content has-text-centered top-pad">
+                            <a >
+                                Music Production
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
             
             <div class="column is-half">
                 
@@ -236,7 +261,7 @@
             
             <div class="column is-half">
                 
-                    <div  id="projectgamedevelopment" 
+                    <div  id="projectgame-development" 
                         class="card">
                         <div class="card-image">
                             <figure class="image is-3by2">
@@ -247,7 +272,7 @@
                         </div>
                         <div class="card-content has-text-centered top-pad">
                             <a >
-                                GameDevelopment
+                                Game Development
                             </a>
                         </div>
                     </div>
@@ -261,6 +286,32 @@
 
     
      
+    <div class="modal" id="modalmusic-production">
+        <div class="modal-background"></div>
+        <div class="modal-card">
+            
+            <header class="modal-card-header bottom-pad">
+                <p class="modal-card-title has-text-centered">Music Production</p>
+            </header>
+             
+            <img src="https://creikey.github.io/img/music.jpg" class="img-responsive img-centered">  
+            <section class="modal-card-body markdown">
+                <p>I use <a href="https://lmms.io">lmms</a> to create music for games and personal use. My soundcloud is <a href="https://soundcloud.com/creikey/">here</a></p>
+
+            </section>
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" id="closemusic-production"></button>
+    </div>
+    <script>
+        $('#projectmusic-production').click(function () {
+            $('#modalmusic-production').addClass('is-active');
+        });
+        $('#closemusic-production').click(function () {
+            $('#modalmusic-production').removeClass('is-active');
+        });
+    </script>
+      
     <div class="modal" id="modalmodeling">
         <div class="modal-background"></div>
         <div class="modal-card">
@@ -313,12 +364,12 @@
         });
     </script>
       
-    <div class="modal" id="modalgamedevelopment">
+    <div class="modal" id="modalgame-development">
         <div class="modal-background"></div>
         <div class="modal-card">
             
             <header class="modal-card-header bottom-pad">
-                <p class="modal-card-title has-text-centered">GameDevelopment</p>
+                <p class="modal-card-title has-text-centered">Game Development</p>
             </header>
              
             <img src="https://creikey.github.io/img/godot.png" class="img-responsive img-centered">  
@@ -328,14 +379,14 @@
             </section>
             
         </div>
-        <button class="modal-close is-large" aria-label="close" id="closegamedevelopment"></button>
+        <button class="modal-close is-large" aria-label="close" id="closegame-development"></button>
     </div>
     <script>
-        $('#projectgamedevelopment').click(function () {
-            $('#modalgamedevelopment').addClass('is-active');
+        $('#projectgame-development').click(function () {
+            $('#modalgame-development').addClass('is-active');
         });
-        $('#closegamedevelopment').click(function () {
-            $('#modalgamedevelopment').removeClass('is-active');
+        $('#closegame-development').click(function () {
+            $('#modalgame-development').removeClass('is-active');
         });
     </script>
      
@@ -434,6 +485,10 @@ And use the hugo new site website command to create the website in a folder name
     
     <a href="http://208.113.133.6">
         <i class="fa fa-server"></i>
+    </a>
+    
+    <a href="https://soundcloud.com/creikey/">
+        <i class="fa fa-soundcloud"></i>
     </a>
     
 </div>
