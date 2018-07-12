@@ -6,28 +6,10 @@
     <description>Recent content on creikey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 04 Jul 2018 14:25:40 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 02 Jul 2018 00:46:46 -0700</lastBuildDate>
     
 	<atom:link href="https://creikey.github.io/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Music Production</title>
-      <link>https://creikey.github.io/projects/musicproduction/</link>
-      <pubDate>Wed, 04 Jul 2018 14:25:40 -0700</pubDate>
-      
-      <guid>https://creikey.github.io/projects/musicproduction/</guid>
-      <description>I use lmms to create music for games and personal use. My soundcloud is here</description>
-    </item>
-    
-    <item>
-      <title>Modeling</title>
-      <link>https://creikey.github.io/projects/modeling/</link>
-      <pubDate>Mon, 02 Jul 2018 01:05:06 -0700</pubDate>
-      
-      <guid>https://creikey.github.io/projects/modeling/</guid>
-      <description>I enjoy using blender to 3d model various objects and to make VFX. I also use blender to develop assets for game development. My blendswap profile is here</description>
-    </item>
     
     <item>
       <title>Programming</title>
@@ -45,6 +27,24 @@
       
       <guid>https://creikey.github.io/projects/gamedevelopment/</guid>
       <description>My primary engine of choice for game development is Godot, for a multitude of reasons. I have a club at La Jolla High School called Viking Games, where we develop games to earn money towards our ASB. All of my personal games can be seen here</description>
+    </item>
+    
+    <item>
+      <title>Modeling</title>
+      <link>https://creikey.github.io/projects/modeling/</link>
+      <pubDate>Mon, 02 Jul 2018 01:05:06 -0700</pubDate>
+      
+      <guid>https://creikey.github.io/projects/modeling/</guid>
+      <description>I enjoy using blender to 3d model various objects and to make VFX. I also use blender to develop assets for game development. My blendswap profile is here</description>
+    </item>
+    
+    <item>
+      <title>Music Production</title>
+      <link>https://creikey.github.io/projects/musicproduction/</link>
+      <pubDate>Wed, 04 Jul 2018 14:25:40 -0700</pubDate>
+      
+      <guid>https://creikey.github.io/projects/musicproduction/</guid>
+      <description>I use lmms to create music for games and personal use. My soundcloud is here</description>
     </item>
     
     <item>
