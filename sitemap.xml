@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
     <loc>https://creikey.github.io/projects/programming/</loc>
@@ -20,6 +19,11 @@
   <url>
     <loc>https://creikey.github.io/projects/musicproduction/</loc>
     <lastmod>2018-07-04T14:25:40-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://creikey.github.io/blog/procedural-generation/</loc>
+    <lastmod>2018-07-29T11:54:44-07:00</lastmod>
   </url>
   
   <url>
@@ -49,7 +53,7 @@
   
   <url>
     <loc>https://creikey.github.io/blog/</loc>
-    <lastmod>2018-07-12T11:54:44-07:00</lastmod>
+    <lastmod>2018-07-29T11:54:44-07:00</lastmod>
     <priority>0</priority>
   </url>
   
