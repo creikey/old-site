@@ -17,7 +17,7 @@
       <pubDate>Mon, 02 Jul 2018 00:46:46 -0700</pubDate>
       
       <guid>https://creikey.github.io/projects/programming/</guid>
-      <description>I am continually trying to improve my skills as a programmer, with the goal of being able to create and do anything I want as efficiently as possible with a computer. Most of my projects are either on my github or on my personal git server</description>
+      <description>I enjoy programming because it allows me to create things that are useful to me and others. Projects are on my github or my personal git server</description>
     </item>
     
     <item>
@@ -44,7 +44,18 @@
       <pubDate>Wed, 04 Jul 2018 14:25:40 -0700</pubDate>
       
       <guid>https://creikey.github.io/projects/musicproduction/</guid>
-      <description>I use lmms to create music for games and personal use. My soundcloud is here</description>
+      <description>I use lmms to create music for games and personal use. My soundcloud is here
+ </description>
+    </item>
+    
+    <item>
+      <title>Procedural Generation</title>
+      <link>https://creikey.github.io/blog/procedural-generation/</link>
+      <pubDate>Sun, 29 Jul 2018 11:54:44 -0700</pubDate>
+      
+      <guid>https://creikey.github.io/blog/procedural-generation/</guid>
+      <description>I have decided to make my week 53 weekly game jam project an official game, which will hopefully be released a week and a half from now. Howevee, this an optimistic estimate
+Preliminary Description The game I had come up with for the theme of &amp;lsquo;One Hit&amp;rsquo; was a procedurally generated space arcade shooter game, where you die in one hit. Unfortunately, a few difficulties arose during the creation process:</description>
     </item>
     
     <item>
